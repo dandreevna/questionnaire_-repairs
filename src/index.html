@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Калькулятор</title>
+        <link rel="stylesheet" href="css/styles.css">      
+    </head>
+    <body>
+ 
+        <div class="kalk6">
+            <section class="white">
+                <h>Первый шаг к ремонту вашей мечты</h>
+                <hr>
+                <div class="questions question1">
+                    <h1>Что будем ремонтировать?</h1>
+                    Готово: <span class="proc">0%</span>
+                    <div class="status_bar"></div>
+
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/1q_1.jpg">
+                            <div class="job">Квартира</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/1q_2.jpg">
+                            <div class="job">Дом</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/1q_3.jpg">
+                            <div class="job">Коммерческое помещение</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/1q_4.jpg">
+                            <div class="job">Другой вариант</div>
+                        </div>
+                    </div>
+                    
+                    <div class="buttons"><button class="next" id="next_q1">Далее</button></div>                 
+                </div>
+
+                <div class="questions question2">
+                    <h1>Какая площадь ремонтируемого помещения?</h1>
+                    Готово: <span class="proc">17%</span>
+                    <div class="status_bar"></div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="job">До 30 кв.м.</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">30 - 50 кв.м.</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">50 - 90 кв.м.</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">90 - 150 кв.м.</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">свыше 150 кв.м.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="buttons"><button class="previous" id="previous_q2">Назад</button><button class="next" id="next_q2">Далее</button></div>                 
+                </div>
+
+                <div class="questions question3">
+                    <h1>Когда планируете начать ремонт?</h1>
+                    Готово: <span class="proc">33%</span>
+                    <div class="status_bar"></div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="job">В течение месяца</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">В течение года</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">Еще не определились</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">Чем быстрее тем лучше</p>
+                        </div>
+                    </div>
+                    
+                    <div class="buttons"><button class="previous" id="previous_q3">Назад</button><button class="next" id="next_q3">Далее</button></div>                 
+                </div>
+
+                 <div class="questions question4">
+                    <h1>В какой бюджет планируете уложиться?</h1>
+                    Готово: <span class="proc">50%</span>
+                    <div class="status_bar"></div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="job">до 150 000 рублей</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">150 000 - 300 000 рублей</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">300 000 - 500 000 рублей</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">500 000 - 900 000 рублей</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">900 000 - 1 500 000 рублей</p>
+                        </div>
+                        <div class="col">
+                            <p class="job">Свыше 1 500 000 рублей</p>
+                        </div>
+                    </div>
+                    
+                    <div class="buttons"><button class="previous" id="previous_q4">Назад</button><button class="next" id="next_q4">Далее</button></div>                 
+                </div>
+
+                <div class="questions question5">
+                    <h1>Какой класс ремонта Вас интересует?</h1>
+                    Готово: <span class="proc">67%</span>
+                    <div class="status_bar"></div>
+
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/5q_1.jpg">
+                            <div class="job">Эконом</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/5q_2.jpg">
+                            <div class="job">Стандарт</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/5q_3.jpg">
+                            <div class="job">Премиум</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/5q_4.jpg">
+                            <div class="job">Дизайн-проект</div>
+                        </div>
+                    </div>
+                    
+                    <div class="buttons"><button class="previous" id="previous_q5">Назад</button><button class="next" id="next_q5">Далее</button></div>                 
+                </div>
+
+                <div class="questions question6">
+                    <h1>Выберите подарок</h1>
+                    Готово: <span class="proc">83%</span>
+                    <div class="status_bar"></div>
+
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/6q_1.jpg">
+                            <div class="job">Монтаж натяжного потолока</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/6q_2.jpg">
+                            <div class="job">Монтаж кондиционера</div>
+                        </div>
+                        <div class="col">
+                            <img src="img/6q_3.jpg">
+                            <div class="job">Подарок на новоселье</div>
+                        </div>
+                    </div>
+                    
+                    <div class="buttons"><button class="previous" id="previous_q6">Назад</button><button class="next" id="next_q6">Далее</button></div>                 
+                </div>
+
+                <div class="questions question7">
+                    <h1>Спасибо!</h1>
+                    Готово: <span class="proc">100%</span>
+                    <div class="status_bar"></div>
+                    <p>Вы нам упростили задачу по составлению сметы и получили скидку <span class="proc">5%</span> на черновой материал. Оставьте свои контактные данные и мы свяжемся с вами в рабочее время.</p>
+                    <form>
+
+                        <input type="text" name="name" placeholder="Ваше имя"><br>   
+                        <input type="text" name="phonenumber" placeholder="Ваш телефон"><br>
+
+                        <input type="text" name="what" class="q_1 none"><br>
+                        <input type="text" name="square" class="q_2 none"><br> 
+                        <input type="text" name="when" class="q_3 none"><br>
+                        <input type="text" name="budget" class="q_4 none"><br> 
+                        <input type="text" name="class" class="q_5 none"><br>
+                        <input type="text" name="present" class="q_6 none"><br>   
+
+                        <input type="submit" value="Узнать стоимость" class="sent">
+
+                    </form>             
+                </div>
+            </section>
+
+            <section class="gray">
+                <div class="row1">
+                    <div class="col1">
+                        <img src="img/brigadir.jpg">
+                    </div>
+                    <div class="col1">
+                        <div class="brigadir">
+                            <h>Александр</h>
+                            <h1>Бригадир</h1>
+                        </div>
+                    </div>
+                </div>
+                <p>Давайте вместе рассчитаем стоимость вашего ремонта!</p>
+            </section>
+            
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
